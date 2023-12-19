@@ -6,6 +6,7 @@ replicaCount: 1
 image:
   repository: cipgen
   tag: "v1.0.7-b111da9"
+  os: linux
   arch: amd64
 secret:
   name: "kbot"
