@@ -4,7 +4,7 @@
 
 replicaCount: 1
 image:
-  repository: "cipgen"
+  repository: "cipgen/kbot"
   tag: "v1.0.7-3ac385b"
   arch: "amd64"
   os: "linux"
