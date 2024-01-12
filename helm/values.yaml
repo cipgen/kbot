@@ -10,6 +10,6 @@ image:
 secret:
   name: "kbot"
   tokenName: "TELE_TOKEN"
-  tokenKey: "AAG5my3l9m8KQV1IrjBNw6etNG9VaxgBtfE"
+  tokenKey: "token"
 securityContext:
   privileged: true
