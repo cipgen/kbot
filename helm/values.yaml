@@ -6,7 +6,7 @@ replicaCount: 1
 image:
   repository: cipgen
   tag: "v1.0.7-b111da9"
-  arch: amd64
+  arch: "amd64"
   os: "linux"
 secret:
   name: "kbot"
@@ -14,3 +14,5 @@ secret:
   tokenKey: "token"
 securityContext:
   privileged: true
+
+
