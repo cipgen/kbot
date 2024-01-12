@@ -7,7 +7,6 @@ image:
   repository: "cipgen/kbot"
   tag: "v1.0.7-3ac385b"
   arch: "amd64"
-  os: "linux"
 secret:
   name: "kbot"
   tokenName: "TELE_TOKEN"
