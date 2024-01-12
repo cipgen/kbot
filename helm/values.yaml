@@ -5,13 +5,12 @@
 replicaCount: 1
 image:
   repository: "cipgen"
-  tag: "v1.0.7-b111da9"
+  tag: "v1.0.7-3ac385b"
   arch: "amd64"
+  os: "linux"
 secret:
   name: "kbot"
   tokenName: "TELE_TOKEN"
   tokenKey: "token"
 securityContext:
   privileged: true
-
-
