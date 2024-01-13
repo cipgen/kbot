@@ -9,7 +9,7 @@ image:
   arch: "amd64"
 secret:
   name: "kbot"
-  tokenName: "TELE_TOKEN"
+  env: "TELE_TOKEN"
   tokenKey: "token"
 securityContext:
   privileged: true
